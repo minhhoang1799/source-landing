@@ -47,11 +47,26 @@ function setBackgroundElement() {
 	})
 }
 
+function mappingMenu(){
+	let mainmenu = $('header .nav').mapping({
+		mobileWrapper: 'header .nav-mobile',
+		mobileMethod: 'appendTo',
+		desktopWrapper: 'header .header__bottom',
+		desktopMethod: 'appendTo',
+		breakpoint: 1200
+	});
+}
+
+function btnNav(){
+	$('.btn__hamburger').on('click', function(){
+		$(this).toggleClass('active')
+		$('.nav-mobile').toggleClass('active')
+	})
+}
 
 $(document).ready(function () {
 	// lazyload
 	App.InitLazyLoad();
-	productNav.init();
 	var $searchbutton = $('.search-button')
 	var $searchform = $('.searchbox')
 	var $m
@@ -65,9 +80,9 @@ $(document).ready(function () {
 
 	// menu
 	mappingMenu();
-	menuMobile();
-	openCart();
+	btnNav();
 
 	// header
 
 })
+
