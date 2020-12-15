@@ -1,0 +1,917 @@
+section.the-pizza-home-hot.main-section
+	.container
+		a(href="#").main-title Ưu đãi, Combo
+		.main-slide
+			.swiper-container
+				.swiper-wrapper
+					- for (i=1; i<5; i++)
+						.swiper-slide
+							.product-item
+								.image.sale
+									a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+										img(src="./img/pizza-home/s"+i+".png", alt="")
+									.discount
+										p Tiết kiệm 
+											span 50%
+								.caption
+									.name
+										a(href="#") Mua 1 tặng 1
+									.des 
+										p(contenteditable='true') Mua 1 Pizza bất kỳ từ size M trở lên, tặng 1 Pizza (đế mỏng/dày) dòng Truyền Thống cùng size
+									.bottom
+										.price
+											p Chỉ từ
+												span 129.000 đ
+										.buynow
+											a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+												em.ri-arrow-right-line
+			.main-button
+				.button-prev
+					em.ri-arrow-left-fill
+				.button-next
+					em.ri-arrow-right-fill
+			.main-page
+				.swiper-pagination
+section.the-pizza-home-product.main-section
+	.container
+		a(href="#").main-title Món Ăn
+		.pizza-hot
+			.main-tab(data-toggle="tabslet")
+				.head-tab
+					a(href="#").product-title.line Pizza
+					ul.tabslet-tab
+						li 
+							a(href="#tab-1") Tất cả
+						li 
+							a(href="#tab-2") Hải sản
+						li 
+							a(href="#tab-3") Thập cẩm
+						li 
+							a(href="#tab-4") Truyền thống
+						li 
+							a(href="#tab-5") Nhân nhồi
+						li 
+							a(href="#tab-6") Pizza tự chọn
+				.tabslet-content(id="tab-1").active
+					.product-list
+						.row
+							.col-md-4.col-lg-3.show-product.active
+								.product-item
+									.image
+										a(href="javascript:void(0)" data-fancybox="" data-src="#pizza")
+											img(src="./img/pizza-home/p1.png", alt="")
+										ul.list-tag
+											li.selling
+												p Bán chạy
+												.icon
+													img(src="./img/i-star.png", alt="").before
+													img(src="./img/icon/1.png", alt="").after
+											li.unique
+												p Độc đáo
+												.icon
+													img(src="./img/i-pizza.png", alt="").before
+													img(src="./img/icon/2.png", alt="").after
+											li.limit 
+												p Giới hạn
+												.icon
+													img(src="./img/i-stopwatch.png", alt="").before
+													img(src="./img/icon/3.png", alt="").after
+											li.new
+												p Mới
+												.icon
+													img(src="./img/i-new.png", alt="").before
+													img(src="./img/icon/4.png", alt="").after
+											li.delicious
+												p Ngon phải thử
+												.icon
+													img(src="./img/i-chef-hat.png", alt="").before
+													img(src="./img/icon/5.png", alt="").after
+											li.vegetarian
+												p Chay
+												.icon
+													img(src="./img/i-broccoli.png", alt="").before
+													img(src="./img/icon/6.png", alt="").after
+											li.piquant
+												p Cay
+												.icon
+													img(src="./img/i-chilli.png", alt="").before
+													img(src="./img/icon/7.png", alt="").after
+									.caption
+										.name
+											a(href="#")  Pizza Hải Sản Cao Cấp
+										.des 
+											p(draggable='true') Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+										.bottom
+											.price
+												p Chỉ từ
+													span 129.000 đ
+											.buynow
+												a(href="javascript:void(0)" data-fancybox="" data-src="#pizza").btn-buynow Mua ngay
+													em.ri-arrow-right-line
+							.col-md-4.col-lg-3.show-product.active
+								.product-item
+									.image
+										a(href="javascript:void(0)" data-fancybox="" data-src="#pizza")
+											img(src="./img/pizza-home/p2.png", alt="")
+										ul.list-tag
+											li.selling
+												p Bán chạy
+												.icon
+													img(src="./img/i-star.png", alt="").before
+													img(src="./img/icon/1.png", alt="").after
+											li.unique
+												p Độc đáo
+												.icon
+													img(src="./img/i-pizza.png", alt="").before
+													img(src="./img/icon/2.png", alt="").after
+											li.limit 
+												p Giới hạn
+												.icon
+													img(src="./img/i-stopwatch.png", alt="").before
+													img(src="./img/icon/3.png", alt="").after
+											li.new
+												p Mới
+												.icon
+													img(src="./img/i-new.png", alt="").before
+													img(src="./img/icon/4.png", alt="").after
+											li.delicious
+												p Ngon phải thử
+												.icon
+													img(src="./img/i-chef-hat.png", alt="").before
+													img(src="./img/icon/5.png", alt="").after
+											li.vegetarian
+												p Chay
+												.icon
+													img(src="./img/i-broccoli.png", alt="").before
+													img(src="./img/icon/6.png", alt="").after
+											li.piquant
+												p Cay
+												.icon
+													img(src="./img/i-chilli.png", alt="").before
+													img(src="./img/icon/7.png", alt="").after
+									.caption
+										.name
+											a(href="#")  Pizza Hải Sản Pesto Xanh
+										.des 
+											p(draggable='true') Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền sốt Pesto xanh  đậm chất Ý
+										.bottom
+											.price
+												p Chỉ từ
+													span 169.000 đ
+											.buynow
+												a(href="javascript:void(0)" data-fancybox="" data-src="#pizza").btn-buynow Mua ngay
+													em.ri-arrow-right-line
+							.col-md-4.col-lg-3.show-product.active
+								.product-item
+									.image
+										a(href="javascript:void(0)" data-fancybox="" data-src="#pizza")
+											img(src="./img/pizza-home/p3.png", alt="")
+										ul.list-tag
+											li.selling
+												p Bán chạy
+												.icon
+													img(src="./img/i-star.png", alt="").before
+													img(src="./img/icon/1.png", alt="").after
+											li.new
+												p Mới
+												.icon
+													img(src="./img/i-new.png", alt="").before
+													img(src="./img/icon/4.png", alt="").after
+											li.delicious
+												p Ngon phải thử
+												.icon
+													img(src="./img/i-chef-hat.png", alt="").before
+													img(src="./img/icon/5.png", alt="").after
+									.caption
+										.name
+											a(href="#")  Pizza Hawaii
+										.des 
+											p(draggable='true') Đặc trưng nhiệt đới với giăm bông, thịt muối, dứa và nước sốt pizza cà chua
+										.bottom
+											.price
+												p Chỉ từ
+													span 129.000 đ
+											.buynow
+												a(href="javascript:void(0)" data-fancybox="" data-src="#pizza").btn-buynow Mua ngay
+													em.ri-arrow-right-line
+							.col-md-4.col-lg-3.show-product.active
+								.product-item
+									.image
+										a(href="javascript:void(0)" data-fancybox="" data-src="#pizza")
+											img(src="./img/pizza-home/p4.png", alt="")
+										ul.list-tag
+											li.unique
+												p Độc đáo
+												.icon
+													img(src="./img/i-pizza.png", alt="").before
+													img(src="./img/icon/2.png", alt="").after
+											li.piquant
+												p Cay
+												.icon
+													img(src="./img/i-chilli.png", alt="").before
+													img(src="./img/icon/7.png", alt="").after
+									.caption
+										.name
+											a(href="#")  Pizza Năm Loại Thịt Đặc Biệt
+										.des 
+											p(draggable='true') Pizza giăm bông và nấm đem đến cho bạn những trải nghiệm thú vị
+										.bottom
+											.price
+												p Chỉ từ
+													span 129.000 đ
+											.buynow
+												a(href="javascript:void(0)" data-fancybox="" data-src="#pizza").btn-buynow Mua ngay
+													em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="javascript:void(0)" data-fancybox="" data-src="#pizza")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Hải Sản Cao Cấp
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="javascript:void(0)" data-fancybox="" data-src="#pizza").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+				.tabslet-content(id="tab-2")
+					.product-list
+						.row
+							- for (i=1; i<5; i++)
+								.col-md-4.col-lg-3.show-product.active
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													.icon
+														img(src="./img/i-star.png", alt="").before
+														img(src="./img/icon/1.png", alt="").after
+												li.unique
+													p Độc đáo
+													.icon
+														img(src="./img/i-pizza.png", alt="")
+														img(src="./img/icon/2.png", alt="").after
+												li.limit 
+													p Giới hạn
+													.icon
+														img(src="./img/i-stopwatch.png", alt="").before
+														img(src="./img/icon/3.png", alt="").after
+												li.new
+													p Mới
+													.icon
+														img(src="./img/i-new.png", alt="").before
+														img(src="./img/icon/4.png", alt="").after
+												li.delicious
+													p Ngon phải thử
+													.icon
+														img(src="./img/i-chef-hat.png", alt="").before
+														img(src="./img/icon/5.png", alt="").after
+												li.vegetarian
+													p Chay
+													.icon
+														img(src="./img/i-broccoli.png", alt="").before
+														img(src="./img/icon/6.png", alt="").after
+												li.piquant
+													p Cay
+													.icon
+														img(src="./img/i-chilli.png", alt="").before
+														img(src="./img/icon/7.png", alt="").after
+										.caption
+											.name
+												a(href="#") Pizza Hải Sản
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+														img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Hải Sản
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+				.tabslet-content(id="tab-3")
+					.product-list
+						.row
+							- for (i=1; i<5; i++)
+								.col-md-4.col-lg-3.show-product.active
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Thập cẩm
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Thập cẩm
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+				.tabslet-content(id="tab-4")
+					.product-list
+						.row
+							- for (i=1; i<5; i++)
+								.col-md-4.col-lg-3.show-product.active
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Truyền thống
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Truyền thống
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+				.tabslet-content(id="tab-5")
+					.product-list
+						.row
+							- for (i=1; i<5; i++)
+								.col-md-4.col-lg-3.show-product.active
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Nhân nhồi
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza Nhân nhồi
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+				.tabslet-content(id="tab-6")
+					.product-list
+						.row
+							- for (i=1; i<5; i++)
+								.col-md-4.col-lg-3.show-product.active
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza tự chọn
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+							- for (i=1; i<13; i++)
+								.col-md-4.col-lg-3.show-product
+									.product-item
+										.image
+											a(href="#")
+												img(src="./img/2.png", alt="")
+											ul.list-tag
+												li.selling
+													p Bán chạy
+													img(src="./img/i-star.png", alt="")
+												li.unique
+													p Độc đáo
+													img(src="./img/i-pizza.png", alt="")
+												li.limit 
+													p Giới hạn
+													img(src="./img/i-stopwatch.png", alt="")
+												li.new
+													p Mới 
+													img(src="./img/i-new.png", alt="")
+												li.delicious 
+													p Ngon phải thử
+													img(src="./img/i-chef-hat.png", alt="")
+												li.vegetarian
+													p Chay
+													img(src="./img/i-broccoli.png", alt="")
+												li.piquant
+													p Cay
+													img(src="./img/i-chilli.png", alt="")
+										.caption
+											.name
+												a(href="#") Pizza tự chọn
+											.des 
+												p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+											.bottom
+												.price
+													p Chỉ từ
+														span 129.000 đ
+												.buynow
+													a(href="#").btn-buynow Mua ngay
+														em.ri-arrow-right-line
+						.view-less
+							a(href="javascript:void(0)") Xem thêm
+								em.ri-add-line
+		.product-list.mt-30
+			a(href="#").product-title.line Mỳ Ý
+			.row
+				-var my = [{name:'Mỳ Ý cay hải sản', content:'Mỳ Ý rán với các loại hải sản tươi ngon cùng vị cay của ớt và tỏi mang đến vị cay nóng thật tuyệt',price :'129.000'},{name:'Mỳ Ý cay xúc xích', content:'Đánh thức vị ngon với một đĩa Mỳ Ý xúc xích cay nóng được thêm tươi ngon của thảo mộc, ngò gai và húng quế Ý',price :'109.000'},{name:'Mỳ Ý giăm bông và nấm sốt',content:'Sự kết hợp tuyệt vời giữa nấm và giăm bông đầy hương vị, được nấu cùng với sốt kem trắng với một ít muối và tiêu',price:'99.000'},{name:'Mỳ Ý cay với thịt xông khói',content:'Mỳ Ý cay ngậy hương thơm thịt xông khói',price:'99.000'}]
+				- for (i=0; i< my.length; i++)
+					.col-md-4.col-lg-3.show-product.active
+						.product-item
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/pizza-home/my"+i+".png", alt="")
+								//- .best-seller
+								//- 	p Best Sellerv
+								//- .selling
+								//- 	p Bán chạy
+								//- .vegetarian
+								//- 	p 
+								//- 		em.ri-seedling-fill
+								//- 		| Chay
+								//- .especially
+								//- 	p 
+								//- 		em.ri-star-fill
+								//- 		| Đặc biệt
+							.caption
+								.name
+									a(href="#") #{my[i].name}
+								.des 
+									p #{my[i].content}
+								.bottom
+									.price
+										p Chỉ từ
+											span #{my[i].price}đ
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+				- for (i=1; i<13; i++)
+					.col-md-4.col-lg-3.show-product
+						.product-item
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/3.png", alt="")
+								//- .best-seller
+								//- 	p Best Seller
+								//- .selling
+								//- 	p Bán chạy
+								//- .vegetarian
+								//- 	p 
+								//- 		em.ri-seedling-fill
+								//- 		| Chay
+								//- .especially
+								//- 	p 
+								//- 		em.ri-star-fill
+								//- 		| Đặc biệt
+							.caption
+								.name
+									a(href="#") Pizza Hải Sản Cao Cấp
+								.des 
+									p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+								.bottom
+									.price
+										p Chỉ từ
+											span 129.000 đ
+									.buynow
+									a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+			.view-less
+				a(href="javascript:void(0)") Xem thêm
+					em.ri-add-line
+		.product-list.mt-30
+			a(href="#").product-title.line Khai vị
+			.row
+				-var kv = [{name:'Combo sườn nướng BBQ', content:'Combo sườn nướng BBQ dùng với khoai tây chiên và salad',price :'319.000'},{name:'Cánh gà tẩm bột chiên giòn', content:'Được chọn lựa từ thịt gà hảo hạng, mỗi miếng gà được phủ bởi lớp bột đặc biệt tạo nên lớp vỏ giòn dai hấp dẫn',price :'109.000'},{name:'Bánh phô mai xoắn',content:'',price:'129.000'},{name:'Bánh mì bơ tỏi',content:'',price:'49.000'}]
+				- for (i=0; i<kv.length; i++)
+					.col-md-4.col-lg-3.show-product.active
+						.product-item
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/pizza-home/kv"+i+".png", alt="")
+								//- .best-seller
+								//- 	p Best Seller
+								//- .selling
+								//- 	p Bán chạy
+								//- .vegetarian
+								//- 	p 
+								//- 		em.ri-seedling-fill
+								//- 		| Chay
+								//- .especially
+								//- 	p 
+								//- 		em.ri-star-fill
+								//- 		| Đặc biệt
+							.caption
+								.name
+									a(href="#") #{kv[i].name}
+								.des 
+									p #{kv[i].content}
+								.bottom
+									.price
+										p Chỉ từ
+											span #{kv[i].price}đ
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+				- for (i=1; i<13; i++)
+					.col-md-4.col-lg-3.show-product
+						.product-item
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/4.png", alt="")
+								//- .best-seller
+								//- 	p Best Seller
+								//- .selling
+								//- 	p Bán chạy
+								//- .vegetarian
+								//- 	p 
+								//- 		em.ri-seedling-fill
+								//- 		| Chay
+								//- .especially
+								//- 	p 
+								//- 		em.ri-star-fill
+								//- 		| Đặc biệt
+							.caption
+								.name
+									a(href="#") Pizza Hải Sản Cao Cấp
+								.des 
+									p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+								.bottom
+									.price
+										p Chỉ từ
+											span 129.000 đ
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+			.view-less
+				a(href="javascript:void(0)") Xem thêm
+					em.ri-add-line
+		.product-list.mt-30
+			a(href="#").product-title.line Salad
+			.row
+				-var sl = [{name:'Salad trộn dầu dầu giấm', content:'Mang đến một vườn rau và rau với giấm thơm ngon',price :'59.000'},{name:'Salad đặc sắc', content:'Là sự kết hợp hoàn hảo của rau tươi và trái cây như búp cải tím, táo, xà lách,… được hòa quyện cùng trứng và sốt Salad đặc biệt',price :'69.000'},{name:'Salad trộn sốt Caesar',content:'Món rau trộn phong cách Ý đúng chất với loạt gia vị Caesar ngon tuỵệt',price:'69.000'}]
+				- for (i=0; i<sl.length;i++)
+					.col-md-4.col-lg-3.show-product.active
+						.product-item
+							.image
+								aa(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/pizza-home/sl"+i+".png", alt="")
+								.especially
+									p 
+										em.ri-star-fill
+										| Đặc biệt
+							.caption
+								.name
+									a(href="#") #{sl[i].name}
+								.des 
+									p #{sl[i].content}
+								.bottom
+									.price
+										p Chỉ từ
+											span #{sl[i].price}đ
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+			.view-less.mt-30
+				a(href="javascript:void(0)").hidden Xem thêm
+					em.ri-add-line
+		.product-list.mt-30
+			a(href="#").product-title.line Thức uống
+			.row
+				-var nuoc = [{name:'Pepsi',price:'29.000'},{name:'7 Up',price:'29.000'},{name:'Pepsi Light', price:'29.000'},{name:'Aquafina',price:'29.000'}]
+				- for (i=0; i<nuoc.length; i++)
+					.col-md-4.col-lg-3.show-product.active
+						.product-item.water
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/pizza-home/n"+i+".png", alt="")
+							.caption
+								.name
+									a(href="#") #{nuoc[i].name}
+								.des 
+									p 
+								.bottom
+									.price
+										p
+											span #{nuoc[i].price}
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+				- for (i=1; i<13; i++)
+					.col-md-4.col-lg-3.show-product
+						.product-item
+							.image
+								a(href="javascript:void(0)" data-fancybox="" data-src="#combo")
+									img(src="./img/6.png", alt="")
+							.caption
+								.name
+									a(href="#") Pizza Hải Sản Cao Cấp
+								.des 
+									p Sự kết hợp hoàn hảo giữa tôm, cua, mực và bông cải xanh trên nền Pesto xanh
+								.bottom
+									.price
+										p Chỉ từ
+											span 129.000 đ
+									.buynow
+										a(href="javascript:void(0)" data-fancybox="" data-src="#combo").btn-buynow Mua ngay
+											em.ri-arrow-right-line
+			.view-less
+				a(href="javascript:void(0)") Xem thêm
+					em.ri-add-line

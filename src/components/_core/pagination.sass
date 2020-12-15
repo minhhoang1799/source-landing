@@ -1,0 +1,27 @@
+.main-pagination
+	margin: 20px
+	.pagination
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-wrap: wrap 
+		li 
+			display: flex
+			justify-content: center
+			align-items: center
+			margin: 5px
+			a, span 
+				display: flex
+				justify-content: center
+				align-items: center
+				width: 35px 
+				height: 35px
+				background: #e8f5ee
+				font-size: 	16px
+				border-radius: 5px
+				color: $main
+				transition: .2s ease-in-out all
+			&:hover ,&.active
+				a, span 
+					background: $main 
+					color: #ffffff
