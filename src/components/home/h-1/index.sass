@@ -1,0 +1,54 @@
+.list__item
+    max-width: 1745px
+    margin: 30px auto 0 auto
+    display: grid
+    grid-template-rows: repeat(1, minmax(0, 1fr))
+    grid-template-columns: repeat(1, minmax(0, 1fr))
+    @media (min-width: 575px)
+        grid-template-columns: repeat(2, minmax(0, 1fr))
+        grid-column-gap: 15px
+    @media (min-width: 1024px)
+        grid-template-columns: repeat(3, minmax(0, 1fr))
+    @media (min-width: 1200px)
+        grid-template-columns: repeat(5, minmax(0, 1fr))
+figure
+    height: 517px
+    width: 100%
+    margin-bottom: 20px
+    padding: 10px
+    background: #000
+    border-radius: 32px
+    background: #F7941D
+    .item__image
+        +img-scale(281/318*100%)
+        overflow: hidden
+        border-radius: 32px
+    &:last-child
+        margin-bottom: 0
+    @media (min-width: 1200px)
+        margin-bottom: 0
+    figcaption
+        max-width: 258px
+        margin: 25px auto 0 auto
+        p
+            font-size: 20px
+            color: #Fff
+            span
+                font-weight: 700
+                margin-left: 5px
+.content__wrapper
+    max-width: 639px
+    margin: 40px auto 0 auto
+    text-align: center
+    text-align-last: center
+.h-1
+    .main__title--child
+        color: #F07311
+        margin-top: 35px
+    .btn__header
+        max-width: 420px
+        width: 100%
+        margin: 0 auto
+        font-size: 20px
+        font-weight: 700
+        box-shadow: 0 0 5px 0 rgba(#000,.8)
